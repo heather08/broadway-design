@@ -1,4 +1,4 @@
-* {
+body {
   text-align: center;
   font-family: Helvetica;
 }
@@ -16,7 +16,7 @@ ul, a {
 }
 
 header {
-  background-image: url(./resources/images/the-flatiron-building.png);
+  background-image: url(resources/images/the-flatiron-building.png);
 }
 
 h2 {
@@ -39,7 +39,11 @@ footer {
   background-color: dimgray
 }
 
+.copyright {
+  text-align: left;
+}
+
 .banner {
   color: white;
-  background-image: url(./resources/images/the-flatiron-building.png);
+  background-image: url(resources/images/the-flatiron-building.png);
 }
